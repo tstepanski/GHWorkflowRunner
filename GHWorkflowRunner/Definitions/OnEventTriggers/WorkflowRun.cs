@@ -5,9 +5,9 @@ public sealed class WorkflowRun : AbstractSubTypedOnEventTrigger<WorkflowRun.Typ
     IBranchConcernedOnEventTrigger
 {
     public string[] Workflows { get; set; } = [];
-    
+
     public string[] Branches { get; set; } = [];
-    
+
     public string[] BranchesIgnore { get; set; } = [];
 
     public enum Type : byte
