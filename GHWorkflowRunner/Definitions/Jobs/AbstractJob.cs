@@ -1,14 +1,16 @@
-﻿namespace GHWorkflowRunner.Definitions.Jobs;
+﻿using GHWorkflowRunner.Definitions.Runners;
+using YamlDotNet.Serialization;
 
-public abstract class AbstractJob
+namespace GHWorkflowRunner.Definitions.Jobs;
+
+public abstract class AbstractJob : AbstractBasicJob
 {
-    public string Name { get; set; } = string.Empty;
+    public string[] Needs { get; set; } = [];
 
-    public Permissions Permissions { get; set; } = Permissions.None();
+    public string? If { get; set; }
 
-    public Dictionary<string, string> Env { get; set; } = new();
+    [YamlMember(Alias = "runs-on", ApplyNamingConventions = false)]
+    public IRunner RunsOn { get; set; } = new Named();
 
-    public Defaults Defaults { get; set; } = new();
-
-    public Concurrency? Concurrency { get; set; }
+    public double? TimeoutMinutes { get; set; }
 }

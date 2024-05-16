@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("pull_request")]
 public sealed class PullRequest : AbstractOnPullRequestTrigger<PullRequest.Type>
 {
     public enum Type : byte

@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("project_column")]
 public sealed class ProjectColumn : AbstractSubTypedOnEventTrigger<ProjectColumn.Type>
 {
     public enum Type : byte

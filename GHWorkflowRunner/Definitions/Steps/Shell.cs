@@ -1,4 +1,4 @@
-﻿namespace GHWorkflowRunner.Definitions.Jobs;
+﻿namespace GHWorkflowRunner.Definitions.Steps;
 
 public enum Shell : byte
 {

@@ -1,4 +1,4 @@
-﻿namespace GHWorkflowRunner.Definitions.Jobs;
+﻿namespace GHWorkflowRunner.Definitions.Steps;
 
 public sealed class Defaults
 {

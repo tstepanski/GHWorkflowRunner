@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("pull_request_review_comment")]
 public sealed class PullRequestReviewComment : AbstractSubTypedOnEventTrigger<PullRequestReviewComment.Type>
 {
     public enum Type : byte

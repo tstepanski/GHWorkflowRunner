@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("push")]
 public sealed class Push : IBranchAndPathConcernedOnEventTrigger
 {
     public string[] Branches { get; set; } = [];
