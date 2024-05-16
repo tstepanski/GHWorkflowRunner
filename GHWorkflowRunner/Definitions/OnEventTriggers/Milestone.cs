@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("milestone")]
 public sealed class Milestone : AbstractSubTypedOnEventTrigger<Milestone.Type>
 {
     public enum Type : byte

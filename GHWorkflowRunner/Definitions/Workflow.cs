@@ -1,13 +1,12 @@
 ﻿using GHWorkflowRunner.Definitions.Jobs;
-using GHWorkflowRunner.Definitions.OnEventTriggers;
 
 namespace GHWorkflowRunner.Definitions;
 
-public sealed class Workflow : AbstractJob
+public sealed class Workflow : AbstractBasicJob
 {
     public string RunName { get; set; } = string.Empty;
 
-    public IOnEventTrigger[] On { get; set; } = [];
+    public On On { get; set; } = new();
 
-    public Job[] Jobs { get; set; } = [];
+    public Dictionary<string, Job> Jobs { get; set; } = new();
 }

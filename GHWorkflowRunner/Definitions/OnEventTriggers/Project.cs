@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("project")]
 public sealed class Project : AbstractSubTypedOnEventTrigger<Project.Type>
 {
     public enum Type : byte

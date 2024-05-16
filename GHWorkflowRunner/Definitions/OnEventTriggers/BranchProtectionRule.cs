@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("branch_protection_rule")]
 public sealed class BranchProtectionRule : AbstractSubTypedOnEventTrigger<BranchProtectionRule.Type>
 {
     public enum Type : byte

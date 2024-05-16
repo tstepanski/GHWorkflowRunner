@@ -3,7 +3,6 @@ using GHWorkflowRunner.Definitions.Outputs;
 
 namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("workflow_call")]
 public class WorkflowCall : IOnEventTrigger
 {
     public IWorkflowCallAppropriateInput[] Inputs { get; set; } = [];

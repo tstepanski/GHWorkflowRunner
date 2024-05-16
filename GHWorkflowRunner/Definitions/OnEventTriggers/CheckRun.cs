@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("check_run")]
 public sealed class CheckRun : AbstractSubTypedOnEventTrigger<CheckRun.Type>
 {
     public enum Type : byte

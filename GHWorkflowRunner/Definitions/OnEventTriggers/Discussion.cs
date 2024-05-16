@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("discussion")]
 public sealed class Discussion : AbstractSubTypedOnEventTrigger<Discussion.Type>
 {
     public enum Type : byte

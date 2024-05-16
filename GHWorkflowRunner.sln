@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHWorkflowRunner", "GHWorkflowRunner\GHWorkflowRunner.csproj", "{765B2207-13EB-451F-BC1F-47FBA95BF328}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHWorkflowRunner.Tests", "GHWorkflowRunner.Tests\GHWorkflowRunner.Tests.csproj", "{1D5A70DC-BCC6-4F76-8EBE-CADB3E5B786E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{765B2207-13EB-451F-BC1F-47FBA95BF328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{765B2207-13EB-451F-BC1F-47FBA95BF328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{765B2207-13EB-451F-BC1F-47FBA95BF328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5A70DC-BCC6-4F76-8EBE-CADB3E5B786E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5A70DC-BCC6-4F76-8EBE-CADB3E5B786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5A70DC-BCC6-4F76-8EBE-CADB3E5B786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5A70DC-BCC6-4F76-8EBE-CADB3E5B786E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,5 @@
 ﻿namespace GHWorkflowRunner.Definitions.OnEventTriggers;
 
-[OnEventTriggerName("issue_comment")]
 public sealed class Label : AbstractSubTypedOnEventTrigger<Label.Type>
 {
     public enum Type : byte
